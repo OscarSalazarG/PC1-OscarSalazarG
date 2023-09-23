@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PC1-OscarSalazar</string>
+    <string name="tView1"><b>Cálculo de notas</b></string>
+    <string name="tViewPar">Examen Parcial</string>
+    <string name="tViewFin">Examen Final</string>
+    <string name="tViewPep">Promedio de evaluación permanente(PEP)</string>
+    <string name="tView2"><b>Resultado</b></string>
+    <string name="tViewFinal">La nota final es:</string>
+    <string name="tViewResult">Resultado</string>
+    <string name="btnCalc">Calcular</string>
 </resources>

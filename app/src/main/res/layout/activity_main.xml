@@ -7,12 +7,91 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/tView"
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/tView1"
+        app:layout_constraintBottom_toTopOf="@+id/edTextPar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/txtViewPar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="82dp"
+        android:text="@string/tViewPar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/tViewFin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edTextPar" />
+
+    <TextView
+        android:id="@+id/txtViewPep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/tViewPep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edTextFin" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="116dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginBottom="245dp"
+        android:text="@string/btnCalc"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edTextFin" />
+
+    <EditText
+        android:id="@+id/edTextPar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/txtViewPar"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewPar" />
+
+    <EditText
+        android:id="@+id/edTextFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/txtViewFin"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewFin" />
+
+    <EditText
+        android:id="@+id/edTextPep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/txtViewPep"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewPep" />
 </androidx.constraintlayout.widget.ConstraintLayout>
